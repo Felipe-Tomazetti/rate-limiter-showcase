@@ -21,6 +21,7 @@ export class FixedWindowRateLimiter implements RateLimiter {
     }
 
     if (record.count < this.options.limit) {
+      record.count++;
       this.store.set<RequestRecord>(key, record);
       return true;
     }
