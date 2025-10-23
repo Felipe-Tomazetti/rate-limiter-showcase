@@ -11,6 +11,6 @@
     "noEmit": true
   },
   "include": ["src/**/*", "__tests__/**/*"],
-  "files": ["src/app.ts"],
+  "files": ["src/index.ts"],
   "exclude": ["dist"]
 }
