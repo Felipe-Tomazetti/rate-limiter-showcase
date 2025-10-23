@@ -7,6 +7,8 @@ This project demonstrates **clean, testable software design** using TypeScript, 
 A small but realistic rate-limiting system implementing a **Fixed Window algorithm**.  
 It shows clean separation between **domain**, **infrastructure**, and **service** layers.
 
+![Application Diagram](/img/application-diagram.png?raw=true "Application Diagram")
+
 ## 🧱 Architecture
 
 - **Domain**: Defines interfaces and models.
