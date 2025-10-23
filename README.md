@@ -24,6 +24,6 @@ It shows clean separation between **domain**, **infrastructure**, and **service*
 ## 🚀 Run Tests
 
 ```bash
-npm install
-npm test
+yarn
+yarn test
 ```
