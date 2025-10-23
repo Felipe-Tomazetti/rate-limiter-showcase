@@ -10,7 +10,7 @@
     "allowImportingTsExtensions": true,
     "noEmit": true
   },
-  "include": ["src/**/*", "tests/**/*"],
+  "include": ["src/**/*", "__tests__/**/*"],
   "files": ["src/app.ts"],
   "exclude": ["dist"]
 }
