@@ -1,5 +1,6 @@
 import { FixedWindowRateLimiter } from "../src/services/FixedWindowRateLimiter.ts";
 import { MemoryStore } from "../src/infrastructure/MemoryStore.ts";
+import { describe, it, expect, jest } from "@jest/globals";
 
 describe("FixedWindowRateLimiter", () => {
   it("allows requests up to the limit", () => {
